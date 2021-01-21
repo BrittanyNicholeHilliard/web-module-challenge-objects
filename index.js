@@ -14,7 +14,7 @@ The function should:
   
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
-
+ create pet function V
 function createMenuItem(/*Your code here*/){
     /*Your code here*/
 }
@@ -29,7 +29,7 @@ Test your createMenuItems function by doing the following:
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
 
-
+invoke 3 times
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 You're having a lunch special! 25% off for teachers and students, 10% off for everyone else. Add a method to the 
@@ -48,7 +48,11 @@ export const burger = {
   name: "Burger", 
   price: 18, 
   category: "Lunch", 
-  /*Your code here*/
+  /*discount: function(string) {}
+  /*if string is who, what is discount, then return price of burger*/
+
+  */ (funtion inside of an object, refer to favfood
+    <-)
 }
 
 
@@ -124,6 +128,8 @@ Use the getLastReview function below to do the following:
 function getLastReview(/*Your code here*/) {
   /*Your code here*/
 } 
+
+(return last item in array)
 
 
 
