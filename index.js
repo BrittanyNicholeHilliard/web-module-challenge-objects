@@ -7,17 +7,25 @@ const latte = {name: "Cafe Latte", price: 4, category: "Drinks"};
 const breakfastBurrito = {name: "Breakfast Burrito", price: 16, category:"Breakfast"};
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1a: Make a function that builds objects🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
-Add to the function createMenuItems below so it will create objects following the same format found above for latte and breakfastBurrito (name, price, category).  
+Add to the function createMenuItems below so it will create objects following the same 
+format found above for latte and breakfastBurrito (name, price, category).  
+
 The function should:
   1. Receive values for the object that will be created as parameters
   2. Create and return an object using the received values 
   
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
- create pet function V
-function createMenuItem(/*Your code here*/){
-    /*Your code here*/
+function createMenuItem(item, price, category){
+  const menuItem = {
+    name: item, 
+    price: price,
+    category: category
+  }
+    return `name: ${menuItem.name}, price: ${menuItem.price}, category: ${menuItem.category};`
 }
+
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
@@ -28,8 +36,10 @@ Test your createMenuItems function by doing the following:
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
+createMenuItem('tacos', 8, 'lunch');
+createMenuItem('bbqBurger', 10, 'lunch');
+createMenuItem('chickieNuggies', 6, 'kids');
 
-invoke 3 times
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 You're having a lunch special! 25% off for teachers and students, 10% off for everyone else. Add a method to the 
