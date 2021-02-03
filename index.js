@@ -66,6 +66,19 @@ export const burger = {
 }
 
 
+// const burger = {
+//   name: "Burger", 
+//   price: 18, 
+//   category: "Lunch",
+//   discount: who(burger.price * 25)}
+
+//   if (who === 'teacher' || who === 'student') {
+//     return ` name: ${burger.name}, discount: ${burger.price(18 * .25)}, new price: (${burger.price} - ${burger.discount}) `}
+//  }
+
+
+// who(18);
+
 
 ///////////////Reviews (MVP)///////////////////
 const reviews = [
@@ -83,7 +96,7 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
-
+console.log(reviews[5].feedback);
 
 
 
@@ -93,7 +106,8 @@ Using the reviews array above do the following: (no function needed)
   2. log the whole array to the console, make sure the new review is inside of it   
 */
 
-
+console.log(reviews.push('Danny', '3', "it was solid"));
+console.log(reviews)
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
